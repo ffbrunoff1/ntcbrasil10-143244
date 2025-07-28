@@ -35,7 +35,7 @@ export default function Footer() {
               />
             </a>
             <p className="max-w-xs text-gray-300">
-              Construcao pau e ferro com solidez, confiança e inovação.
+              Drenagem facil com solidez, confiança e inovação.
             </p>
           </div>
           <div>
