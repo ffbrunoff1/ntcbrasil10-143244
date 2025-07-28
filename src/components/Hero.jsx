@@ -56,7 +56,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight"
         >
-          drenagem legal
+          Construcao legal
         </motion.h1>
         <motion.p
           variants={itemVariants}

@@ -35,7 +35,7 @@ export default function Footer() {
               />
             </a>
             <p className="max-w-xs text-gray-300">
-              drenagem legal com solidez, confiança e inovação.
+              Construcao legal com solidez, confiança e inovação.
             </p>
           </div>
           <div>
