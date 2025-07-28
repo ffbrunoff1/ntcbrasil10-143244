@@ -56,14 +56,14 @@ export default function Hero() {
           variants={itemVariants}
           className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight"
         >
-          Soluções em Drenagem
+          Construcao pau e ferro
         </motion.h1>
         <motion.p
           variants={itemVariants}
           className="mt-6 max-w-3xl mx-auto text-lg md:text-xl font-light"
         >
-          A NTC Brasil é sua parceira especialista em sistemas de drenagem,
-          oferecendo soluções eficientes e inovadoras para seus projetos.
+          A NTC Brasil é sua parceira especialista em construção, oferecendo
+          soluções eficientes e inovadoras para seus projetos.
         </motion.p>
         <motion.div variants={itemVariants} className="mt-10">
           <a
