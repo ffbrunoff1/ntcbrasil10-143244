@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-
 export default function Hero() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -13,7 +12,6 @@ export default function Hero() {
       },
     },
   };
-
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
@@ -25,7 +23,6 @@ export default function Hero() {
       },
     },
   };
-
   return (
     <section
       id="home"
@@ -49,7 +46,6 @@ export default function Hero() {
           <rect width="100%" height="100%" fill="url(#hero-pattern)"></rect>
         </svg>
       </div>
-
       <motion.div
         className="container mx-auto px-6 text-center z-10"
         variants={containerVariants}
@@ -60,16 +56,14 @@ export default function Hero() {
           variants={itemVariants}
           className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight"
         >
-          Construindo o Futuro,
-          <br />
-          <span className="block mt-2">Tijolo por Tijolo</span>
+          Soluções em Drenagem
         </motion.h1>
         <motion.p
           variants={itemVariants}
           className="mt-6 max-w-3xl mx-auto text-lg md:text-xl font-light"
         >
-          A NTC Brasil é sua parceira confiável na jornada da construção,
-          transformando visões em realidade com excelência e inovação.
+          A NTC Brasil é sua parceira especialista em sistemas de drenagem,
+          oferecendo soluções eficientes e inovadoras para seus projetos.
         </motion.p>
         <motion.div variants={itemVariants} className="mt-10">
           <a
